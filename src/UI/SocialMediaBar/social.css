@@ -1,0 +1,10 @@
+.social-media-container{width:100%;
+display:flex;
+justify-content:space-around;
+}
+.social-media-container li p{
+    color:#fff;
+    font-size: 1.5em;
+    text-transform:capitalize;
+    /* padding-top: 10px;; */
+}

@@ -1,0 +1,26 @@
+:root{
+  --app-shadow: 3px 3px 18px rgba(0, 0, 0, 0.20);
+  --primary-color:#7ae582;
+  --secondary-color:#fff;
+  --third-color:#000;
+}
+*,::after,::before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  text-decoration:none;
+  scroll-behavior: smooth;
+}
+
+.contact-title p , .projects-title p, .services-title p{
+  font-size:12px;
+  padding:0px 15px;
+  padding-bottom: 10px;;
+}
+
+button{
+  cursor: pointer;
+  color:#000;
+}

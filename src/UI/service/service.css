@@ -1,0 +1,70 @@
+.service {
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  margin: 70px 0px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.16);
+}
+
+.service::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #74db7c;
+  position: absolute;
+  z-index: -9;
+  border-radius: 10px;
+  top: 10px;
+  left: 10px;
+  box-shadow: var(--app-shadow);
+}
+
+.service_icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  padding: 12px;
+  object-fit: contain;
+  background-color: #74db7c;
+  position: absolute;
+  top: -30px;
+  left: 3%;
+}
+.service_icon img {
+  max-width: 100%;
+}
+
+.service_text {
+  width: 100%;
+}
+
+.service_text h1 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  text-align: right;
+  padding: 5px 10px;
+}
+
+.service_text p {
+  padding: 0px 20px;
+  font-size: 0.7em;
+}
+
+.service_query {
+  padding: 10px 20px;
+}
+
+.service_query button {
+  border-radius: 50px;
+  padding: 2px 15px;
+  font-weight: bold;
+  border: none;
+  box-shadow: var(--app-shadow);
+  text-transform: capitalize;
+  background-color: #74db7c;
+}

@@ -1,0 +1,56 @@
+.androidProject{
+    width: 100%;
+    padding: 20px;
+
+}
+.androidProject-main{
+    box-shadow: var(--app-shadow);
+
+}
+.androidProject-img .android-slide-container{
+    margin:0;
+    /* padding:0px 15px; */
+}
+.androidProject-img .android-slide-container img{
+    max-width: 100%;
+}
+
+.androidProject-info .androidProject-info-text{
+    padding:5px 15px;
+}
+ .android-project-title h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.androidProject-info .androidProject-info-text .android-project-para{
+    text-transform:capitalize;
+    font-size:12px;;
+}
+
+.android-project-tech-container{
+    width: 100%;
+    padding:0px 15px;
+
+}
+.android-project-tech-list{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.android-project-tech-list .android-project-tech{
+    width: 32px;;
+}
+
+.android-project-tech-list .android-project-tech img{
+    max-width:100%;
+}
+.android-project-visit button{
+    width: 100%;
+    border:none;
+    padding:5px 0px;
+    background-color:var(--primary-color);
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size:16px
+}

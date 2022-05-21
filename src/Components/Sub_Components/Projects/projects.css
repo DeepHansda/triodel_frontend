@@ -1,0 +1,152 @@
+.projects {
+  width: 100%;
+  padding: 20px 50px;
+  position: relative;
+  max-width:1750px;
+  margin: 0 auto;
+}
+.projects-title {
+  width: 100%;
+  text-align: center;
+}
+.projects-title h1 {
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+  .projects{
+    margin-top: 90px;
+  }
+  .project {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+  }
+  .project::before {
+    top: -5px;
+    left: 5px;
+  }
+  .project-img {
+    overflow: visible;
+    border-radius: none;
+    margin: 10px;
+  }
+  .project-img img {
+    border-radius: 8px;
+    /* overflow:hidden; */
+    background-color: #74db7c;
+  }
+  .project-info {
+    width: 50%;
+    color: #fff;
+    padding: 10px 15px;
+  }
+
+  .project-text-title h1 {
+    font-size: 0.9em;
+  }
+  .project-text-para p {
+    font-size: 0.5em;
+  }
+
+  .project-button {
+    padding: 0;
+  }
+  .project-tech .project-tech-title h1 {
+    font-size: 0.7em;
+  }
+  .project-button {
+    padding: 0px;
+  }
+  .project-button button {
+    padding: 0px 5px;
+    font-size: 12px;
+  }
+
+  .project-tech-item {
+    background-color: #74db7c;
+    padding: 5px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 100%;
+  }
+  .project-tech {
+    padding: 10px 0;
+  }
+  .project-text {
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px 10px;
+  }
+
+  .project {
+    flex: 50%;
+    margin: 0px;
+    /* margin: 10px 10px;; */
+  }
+.projects-title {
+  width: 400px;
+  text-align:left;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+.projects-title p{
+  padding:0;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+  .projects-container {
+    gap: 30px 25px;
+
+  }
+  .project-info {
+      width: 44%;;
+  }
+  .projects-title h1 {
+    font-size: 5.4em;
+
+  }
+  .projects-title p {
+    font-size:0.9em
+  }
+    .project-text-title h1 {
+        font-size: 0.8em;
+      }
+      .project-text-para p {
+        font-size: 0.6em;
+      }
+    
+      .project-button {
+        padding: 0;
+      }
+      .project-tech .project-tech-title h1 {
+        font-size: 0.8em;
+      }
+}
+
+@media screen and (min-width:1550px){
+.project-text-title h1 {
+  font-size: 2.8em;
+}
+.project-text-para p {
+  font-size:0.7em;
+}
+.project-tech-item {
+  margin: 10px;
+}
+}
